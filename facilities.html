@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Facilities | My Gym</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #510400;
+			justify-content: center;
+        }
+		.logo-image{
+			width: 46px;
+			height: 46px;
+			border-radius: 50%;
+			overflow: hidden;
+			margin-top: -6px;
+		}
+
+        .navbar-dark .navbar-brand {
+            color: #ffffff;
+			}
+		
+        .page-header {
+            background: url('images/Cover2.jpg') center/cover no-repeat;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 0;
+        }
+
+        .page-header h1 {
+            font-size: 3.5rem;
+        }
+		.login {
+		font-size: 2px;
+		margin-right: 2.5rem;
+		}
+		.register {
+		margin-right: 2.5rem;
+		}
+        .facility-card {
+            margin-bottom: 30px;
+			margin-top: 50px;
+        }
+		
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+      <div class="logo-image">
+            <img src="images/logo.jpg" class="img-fluid">
+      </div>
+		</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+				<a class="nav-link" href="IndexPredator.html">Home</a>
+				</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Facilities.html">Facilities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Trainers.html">Trainers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Timetable.html">Timetable and Fees</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Booking.html">Booking/Trial Class</a>
+            </ul>
+        </div>
+    </div>
+	<div class="login">
+	<a href="Log In.html">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="button">LogIn</button>
+	 </a>
+    </div>
+	<div class="register">
+	<a href="Register.html">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="button">Register</button>
+	</a>
+    </div>
+</nav>
+<!-- Facilities Page Header -->
+<div class="page-header">
+    <div class="container">
+        <h1 class="display-4">Our Facilities</h1>
+        <p class="lead">Explore our facilities designed to enhance your Muay Thai experience.</p>
+    </div>
+</div>
+
+<!-- Facilities Cards -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card facility-card">
+                <img src="images/equip.png" class="card-img-top" alt=" ">
+                <div class="card-body">
+                    <h5 class="card-title">Training Area</h5>
+                    <p class="card-text">Equipped with various kind of Muay Thai gears for various training methods</p>
+                </div>
+            </div>
+        </div>
+	
+        <div class="col-md-4">
+            <div class="card facility-card">
+                <img src="images/sandbag.png" class="card-img-top" alt=" ">
+                <div class="card-body">
+                    <h5 class="card-title">Punching Bags Area</h5>
+                    <p class="card-text">Sandbags for everyone to practice combos and techniques</p>
+                </div>
+            </div>
+        </div>
+		
+		<div class="col-md-4">
+            <div class="card facility-card">
+                <img src="images/punchbagAll.png" class="card-img-top" alt="Facility 3">
+                <div class="card-body">
+                    <h5 class="card-title">More Punching Bags</h5>
+                    <p class="card-text">More sandbags of different purposes in specific trainings</p>
+                </div>
+            </div>
+        </div>
+		
+        <div class="col-md-4">
+            <div class="card facility-card">
+                <img src="images/ring.png" class="card-img-top" alt="Facility 3">
+                <div class="card-body">
+                    <h5 class="card-title">Boxing Ring</h5>
+                    <p class="card-text">To practice technical sparring with members</p>
+                </div>
+            </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card facility-card">
+                <img src="images/sink1.png" class="card-img-top" alt="Facility 3">
+                <div class="card-body">
+                    <h5 class="card-title">Bathroom Area</h5>
+                    <p class="card-text">Equipped with sinks, one bathroom and one toilet</p>
+                </div>
+            </div>
+        </div>
+		<div class="col-md-4">
+            <div class="card facility-card">
+                <img src="images/shower.png" class="card-img-top" alt="Facility 3">
+                <div class="card-body">
+                    <h5 class="card-title">Heated Shower</h5>
+                    <p class="card-text">Equipped with bathroom with heated shower</p>
+                </div>
+            </div>
+        </div>
+		
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Predator Muay Thai. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
