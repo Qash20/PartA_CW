@@ -1,1 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Predator Muay Thai - Cheras</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-image: linear-gradient(to bottom, black, grey, white);
+        }
+
+        .navbar {
+            background-color: #510400;
+			justify-content: center;
+        }
+		.logo-image{
+			width: 46px;
+			height: 46px;
+			border-radius: 50%;
+			overflow: hidden;
+			margin-top: -6px;
+		}
+
+        .navbar-dark .navbar-brand {
+            color: #ffffff;
+			}
+		
+        .page-header {
+            background: url('images/Cover.jpg') center/cover no-repeat;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 0;
+        }
+		.login {
+		font-size: 2px;
+		margin-right: 2.5rem;
+		}
+		.register {
+		margin-right: 2.5rem;
+		}
+		.cover {
+        padding: 20px 20px;
+		text-align: center;
+		margin-top: 0rem;
+        margin-bottom: 0;
+		}
+		.about {
+		text-align: center;
+		font-size: 30px;
+		color: white;
+		}
+		.desc {
+		margin-left: 50px;
+		text-align: left;
+		margin-bottom: 4rem;
+		}
+		.desc1 {
+		text-align: center;
+		color: white;
+		
+		}
+		.video {
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width: 645px;
+  height: 280px;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  margin-top: 3rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+button {
+border: 1px black;
+color: white;
+background-color: #89CFF0;
+border-radius: 12px;
+}
+
+	</style>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+      <div class="logo-image">
+            <img src="images/logo.jpg" class="img-fluid">
+      </div>
+		</a>
+
+		<div class="navbar" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+				<a class="nav-link" href="IndexPredator.html">Home</a>
+				</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Facilities.html">Facilities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Trainers.html">Trainers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Timetable.html">Timetable and Fees</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href=" *** ">Personal Training</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- cover img -->
+
+<div class="cover">
+	<img src="images/coverpredator.jpg" class="predcover" alt=" ">
+</div>
+
+<!--About-->
+<div class="about">
+	<b>ABOUT PREDATOR MUAY THAI</b>
+</div>
+
+<div class="desc1">
+<p> Predator Muay Thai is located in Alam Damai, the border between Selangor and Kuala Lumpur state.</p>
+<p> Our gym offers various martial arts and fitness training for everyone</p>
+</div>
+
+<!-- Video Players Section -->
+<div class="video">
+	<video width="320" height="240" controls>
+		<source src="movie.mp4" type="video/mp4">
+		<source src="movie.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+	</video>
+	<video width="320" height="240" controls>
+		<source src="movie.mp4" type="video/mp4">
+		<source src="movie.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+	</video>
+</div>
+
+<!--Slideshow-->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 9</div>
+  <img src="images/slide1.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 9</div>
+  <img src="images/slide2.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 9</div>
+  <img src="images/slide3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 9</div>
+  <img src="images/slide4.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 9</div>
+  <img src="images/slide5.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 9</div>
+  <img src="images/slide6.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 9</div>
+  <img src="images/slide7.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 9</div>
+  <img src="images/slide8.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 9</div>
+  <img src="images/slide9.jpg" style="width:100%">
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br> <br> <br> <br> <br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<!--Description-->
+<br> <br> 
+<div class="desc">
+	
+	<h3>Gym Location</h3>
+	<p>See our class schedule here
+	<a href="timetable.html" target="_blank">See timetable</a> </p>
+	<p>Address: No 1 , First floor, Jalan Desa Cahaya 11, Taman Desa Bukit Cahaya, 56100 Kuala Lumpur, Selangor</p>
+	<a href="https://maps.app.goo.gl/NFw9KfxRQjSQZ8qs8">
+	<button type=button >Search Maps</button> </a>
+	<a href="https://ul.waze.com/ul?place=ChIJWQ_jQLU1zDERm9EWc-gkdOQ&ll=3.04508050%2C101.74275400&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+	<button type=button >Search Waze</button> </a>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Predator Muay Thai. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
